@@ -1,0 +1,19 @@
+Model,Family,Degree,k,Weights,Train RMSE,CV RMSE,CV RMSE Std,CV MAE,CV R2
+Polynomial (degree=2),Polynomial,2.0,,,0.14602,0.15924,0.01641,0.1288,0.30222
+"kNN (k=20, distance)",kNN,,20.0,distance,-0.0,0.16235,0.00532,0.13617,0.2825
+"kNN (k=20, uniform)",kNN,,20.0,uniform,0.15452,0.16357,0.00412,0.13697,0.27229
+"kNN (k=10, distance)",kNN,,10.0,distance,-0.0,0.16388,0.01146,0.13706,0.26611
+"kNN (k=5, distance)",kNN,,5.0,distance,-0.0,0.16423,0.01616,0.13637,0.2567
+Polynomial (degree=3),Polynomial,3.0,,,0.13403,0.16476,0.01315,0.13404,0.26142
+"kNN (k=5, uniform)",kNN,,5.0,uniform,0.13339,0.16483,0.01507,0.13663,0.25215
+"kNN (k=10, uniform)",kNN,,10.0,uniform,0.14601,0.1651,0.01011,0.13818,0.25651
+"kNN (k=50, distance)",kNN,,50.0,distance,-0.0,0.16824,0.00449,0.1416,0.22895
+"kNN (k=3, distance)",kNN,,3.0,distance,-0.0,0.16829,0.0188,0.14012,0.21667
+"kNN (k=3, uniform)",kNN,,3.0,uniform,0.11689,0.16856,0.01844,0.14041,0.21392
+"kNN (k=50, uniform)",kNN,,50.0,uniform,0.16835,0.17107,0.00375,0.14355,0.20287
+Polynomial (degree=1),Polynomial,1.0,,,0.17643,0.18036,0.0053,0.14972,0.11282
+"kNN (k=1, distance)",kNN,,1.0,distance,-0.0,0.21768,0.02418,0.17446,-0.31765
+"kNN (k=1, uniform)",kNN,,1.0,uniform,-0.0,0.21768,0.02418,0.17446,-0.31765
+Polynomial (degree=4),Polynomial,4.0,,,0.11635,0.23229,0.03736,0.1711,-0.50308
+Polynomial (degree=5),Polynomial,5.0,,,0.09013,0.73313,0.18498,0.3824,-14.56886
+Polynomial (degree=6),Polynomial,6.0,,,0.0,23.95804,11.90798,9.02592,-18851.83098
